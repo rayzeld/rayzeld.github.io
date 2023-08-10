@@ -145,14 +145,12 @@ nav ul li a:hover {
     display: flex;
     align-items: center;
     justify-content: baseline;
-    /* background-color: rgb(44, 43, 43); */
     box-sizing: border-box;
 }
 
 .informasi .content-info {
     min-width: 10px;
     max-width: 40px;
-    /* background-color: azure; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -381,7 +379,8 @@ footer {
     .text-header .informasi {
         width: 60%;
         margin: 0 auto;
-        justify-content: center;
+        justify-content: flex-start;
+        text-align: start;
     }
 
     .informasi .content-info {
