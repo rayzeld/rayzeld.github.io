@@ -332,6 +332,15 @@ footer {
         width: 10%;
     }
 
+    .container-dua {
+        padding: 50px;
+    }
+
+    .container-dua .tentang {
+        width: 100%;
+        font-size: 1.1em;
+    }
+
     .container-dua .kemampuan {
         justify-content: center;
         align-items: center;
@@ -407,7 +416,7 @@ footer {
 
     .container-dua .tentang {
         width: 90%;
-        margin: 100px 25px 0;
+        font-size: 1em;
     }
 
     .container-dua .kemampuan {
