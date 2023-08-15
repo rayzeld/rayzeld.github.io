@@ -129,7 +129,7 @@ nav ul li a:hover {
 }
 
 .thumbnail {
-    width: 40%;
+    width: 50%;
     z-index: -1;
 }
 
@@ -235,19 +235,18 @@ nav ul li a:hover {
 }
 
 .container-tiga {
-    width: 100%;
-    padding: 0 5%;
+    width: 990px;
     box-sizing: border-box;
     color: #f2f2f2;
     display: flex;
     margin: 0 auto;
-    gap: 100px;
+    gap: 50px;
     justify-content: center;
     flex-wrap: wrap;
 }
 
 .container-tiga .card {
-    width: 30%;
+    width: 40%;
     text-align: center;
     background-color: #f2f2f2;
     border-radius: 15px;
@@ -364,6 +363,7 @@ footer {
 
     .container-tiga {
         gap: 50px;
+        width: 100%;
     }
 
     .container-tiga .card {
