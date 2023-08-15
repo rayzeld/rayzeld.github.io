@@ -241,13 +241,12 @@ nav ul li a:hover {
     color: #f2f2f2;
     display: flex;
     margin: 0 auto;
-    gap: 50px;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
 .container-tiga .card {
-    width: 40%;
+    width: 45%;
     text-align: center;
     background-color: #f2f2f2;
     border-radius: 15px;
@@ -256,6 +255,7 @@ nav ul li a:hover {
     box-sizing: border-box;
     padding-bottom: 30px;
     transition: all .3s;
+    margin-bottom: 120px;
 }
 
 .container-tiga .card p {
@@ -365,12 +365,13 @@ footer {
     }
 
     .container-tiga {
-        gap: 50px;
         width: 100%;
+        justify-content: center;
     }
 
     .container-tiga .card {
-        width: 60%;
+        width: 70%;
+        margin-bottom: 50px;
     }
 }
 
@@ -437,10 +438,6 @@ footer {
 
     .kemampuan .skill {
         width: 40%;
-    }
-
-    .container-tiga {
-        gap: 50px;
     }
 
     .container-tiga .card {
