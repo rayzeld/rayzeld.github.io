@@ -113,8 +113,8 @@ nav ul li a:hover {
 /* Body */
 
 /* Container 1 */
-#logo.container-satu {
-    width: 80%;
+.container-satu {
+    width: 990px;
     margin: 50px auto 0;
     display: flex;
     justify-content: center;
@@ -397,7 +397,7 @@ footer {
     }
 
     .text-header {
-        font-size: 0.8em;
+        font-size: 0.7em;
     }
 
     .text-header .informasi {
@@ -412,12 +412,12 @@ footer {
     }
 
     .container-dua {
-        padding: 50px;
+        padding: 25px;
     }
 
     .container-dua .tentang {
         width: 90%;
-        font-size: 1em;
+        font-size: .8em;
     }
 
     .container-dua .kemampuan {
