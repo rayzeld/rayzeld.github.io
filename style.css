@@ -15,8 +15,9 @@ body {
 nav {
     display: flex;
     background-color: #f2f2f2;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 50px;
+    padding: 0 150px;
     color: #106628;
     align-items: center;
     position: fixed;
@@ -293,9 +294,13 @@ footer {
     .tombol-menu {
         display: none;
     }
+
+    nav {
+        padding: 0 15%;
+    }
     
     nav ul {
-        width: 300px;
+        width: 250px;
     }
 
     .container-satu {
