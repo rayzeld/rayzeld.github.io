@@ -6,7 +6,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
-    background-image: url(img/background.jpg);
+    background-color: #092919;
     background-repeat: repeat;
 }
 
@@ -16,15 +16,15 @@ nav {
     display: flex;
     background-color: #f2f2f2;
     justify-content: space-between;
-    height: 50px;
-    color: #106628;
+    height: 75px;
+    color: #092919;
     align-items: center;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 99;
-    box-shadow: 3px 3px 10px #0202025a;
+    box-shadow: 3px 3px 10px #02020222;
 }
 
 nav .box-nav {
@@ -37,7 +37,8 @@ nav .box-nav {
 
 nav .logo a {
     text-decoration: none;
-    color: #106628;
+    color: #092919;
+    font-size: 1.3em;
 }
 
 nav ul {
@@ -49,7 +50,7 @@ nav ul {
 
 nav ul li a {
     text-decoration: none;
-    color: #106628;
+    color: #092919;
     font-size: 0.9em;
 }
 
@@ -122,7 +123,7 @@ nav ul li a:hover {
 /* Container 1 */
 .container-satu {
     width: 990px;
-    margin: 50px auto 0;
+    margin: 75px auto 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -303,6 +304,7 @@ footer {
 
     nav {
         padding: 0 15%;
+        height: 50px;
     }
     
     nav ul {
@@ -314,6 +316,7 @@ footer {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin: 50px 0 0;
     }
     
     .container-satu .thumbnail {
