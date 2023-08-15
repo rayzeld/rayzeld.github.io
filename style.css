@@ -290,7 +290,7 @@ footer {
 /* Responsive */
 
 /* Ukuran Tablet */
-@media screen and (max-width: 910px) {
+@media screen and (max-width: 1061px) {
     .tombol-menu {
         display: none;
     }
