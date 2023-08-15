@@ -288,7 +288,7 @@ footer {
 /* Responsive */
 
 /* Ukuran Tablet */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 910px) {
     .tombol-menu {
         display: none;
     }
@@ -376,11 +376,15 @@ footer {
         opacity: 1;
     }
 
+    .text-header {
+        font-size: 0.8em;
+    }
+
     .text-header .informasi {
         width: 60%;
         margin: 0 auto;
-        justify-content: flex-start;
-        text-align: start;
+        justify-content: center;
+        text-align: center;
     }
 
     .informasi .content-info {
@@ -388,7 +392,7 @@ footer {
     }
 
     .container-dua .tentang {
-        width: 80%;
+        width: 90%;
         margin: 100px 25px 0;
     }
 
