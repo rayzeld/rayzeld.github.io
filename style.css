@@ -24,6 +24,7 @@ nav {
     left: 0;
     right: 0;
     z-index: 99;
+    box-shadow: 3px 3px 10px #0202025a;
 }
 
 nav .logo a {
